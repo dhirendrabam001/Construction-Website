@@ -202,10 +202,157 @@ hr {
 /* Choose section start */
 .choose-section {
     width: 100%;
+    height: 90vh;
+    background: #efebe7;
+}
+.choose-section p {
+    line-height: 30px;
+    color: darkgray;
+}
+.choose-content .choose-icons i {
+    background: #e2c9b0;
+    padding: 18px 17px;
+    border-radius: 50%;
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+}
+.choose-content .card-body a {
+    padding: 8px 4px;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+/* Choose section end */
+
+/* Tradition section start */
+.tradition-section {
+    width: 100%;
+    min-height: 90vh;
+}
+.tradition-content p {
+    color: darkgray;
+    line-height: 32px;
+    margin-top: 10px;
+}
+.tradition-info li {
+    list-style: none;
+    line-height: 32px;
+}
+.tradition-info i {
+    color: red;
+    font-weight: bold;
+    padding: 6px 6px;
+    border-radius: 50%;
+    font-size: 16px;
+    margin-left: -37px;
+}
+.tradition-btn a {
+    background: red;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: 0.5s ease;
+    margin-top: 10px;
+    display: inline-block;
+}
+.tradition-btn a:hover {
+    background: black;
+    transform: scale(0.9);
+    opacity: 0.9;
+    color: white;
+}
+
+/* Tradition section end */
+
+/* Services Section start */
+.services-section {
+    width: 100%;
     min-height: 100vh;
     background: #efebe7;
+}
+.service-info .btn-service {
+    background: orange;
+    padding: 15px 20px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    font-size: 20px;
+}
+  .tab-btn {
+      background-color: #fff!important;
+      color: #000;
+      font-weight: 600;
+      border-radius: 0;
+      border: 2px solid transparent;
+      padding: 0.75rem 1.5rem;
+      transition: all 0.3s ease;
+    }
+
+    .tab-btn.active {
+      background-color: #ff5e14!important;
+      color: #fff;
+      border-color: #ff5e14;
+    }
+  .tab-section {
+  background-image: url('https://reactheme.com/products/wordpress/elever/construction/wp-content/uploads/sites/2/2025/03/07-scaled.webp');
+  background-size: cover;
+  width: 100%;
+  height: 65vh;
+  background-position: right;
+  background-repeat: no-repeat;
+  color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-top: 40px;
+}
+.tab-section h2 {
+    margin-top: 50px !important;
+    margin-left: 50px;
+}
+.tab-section p {
+    color: darkgray;
+    line-height: 32px;
+    margin-left: 75px !important;
+}
+.tab-content-info {
+    width: 50%;
+    border: 2px solid red;
+    
+}
+.feature-list {
+    width: 30%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.feature-list li {
+    list-style: none;
+    line-height: 35px;
+}
+.feature-list i {
+    color: red;
+    font-weight: bold;
+    border-radius: 50%;
+}
+.tabs-btn a {
+    background: red;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: 0.5s ease;
+    margin-left: 78px;
+    margin-top: 15px;
+    display: inline-block;
+}
+.tabs-btn a:hover {
+    background: black;
+    transform: scale(0.9);
+    opacity: 0.9;
+    color: white;
 }
 
 
 
-/* Choose section end */
+/* Services Section end */

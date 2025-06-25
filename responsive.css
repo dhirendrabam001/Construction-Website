@@ -100,4 +100,26 @@
     line-height: 30px;
     margin-top: 10px;
   }
+  .tradition-section {
+    margin-top: 188%;
+  }
+  .tab-section {
+    height: 90vh;
+  }
+  .tab-section h2 {
+    margin-top: 6px !important;
+    margin-left: 8px;
+  }
+.tab-section p {
+    line-height: 32px;
+    margin-left: 33px !important;
+}
+   .feature-list {
+    width: 395px;
+    margin-left: -10px;
+  }
+    .tabs-btn a {
+    margin-left: 38px;
+    font-size: 14px;
+  }
 }

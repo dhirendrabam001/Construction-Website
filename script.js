@@ -41,3 +41,65 @@ ScrollReveal().reveal('.price-info', { origin: 'right', delay: 400 });
 
   // Animate the image on the right side
   sr.reveal('.finished-project img', { origin: 'right', delay: 200 });
+
+  // Choose section
+  ScrollReveal().reveal('.choose-section .text-center', {
+        delay: 200,
+        origin: 'top',
+        distance: '50px',
+        duration: 800,
+        easing: 'ease-in-out',
+        reset: false
+    });
+
+    // Reveal each card one by one
+    ScrollReveal().reveal('.choose-content', {
+        interval: 200, // 200ms delay between each card
+        origin: 'bottom',
+        distance: '60px',
+        duration: 1000,
+        easing: 'ease-out',
+        reset: false
+    });
+
+    // Tradition section
+    ScrollReveal().reveal('.tradition-section .tradition-content img', {
+        origin: 'left',
+        distance: '60px',
+        duration: 1000,
+        delay: 200,
+        easing: 'ease-in-out',
+        reset: false
+    });
+
+    // Animate the text content from the right
+    ScrollReveal().reveal('.tradition-section .tradition-content h2, .tradition-section .tradition-content p, .tradition-section .tradition-info li, .tradition-section .tradition-btn', {
+        origin: 'right',
+        distance: '60px',
+        duration: 1000,
+        delay: 300,
+        interval: 100, // nice stagger effect for the list
+        easing: 'ease-in-out',
+        reset: false
+    });
+
+    // Services section
+    ScrollReveal({
+        reset: false, // true if you want animations every time they re-enter viewport
+        distance: '60px',
+        duration: 1000,
+        delay: 100,
+    });
+
+    // Animate section title and subtitle
+    ScrollReveal().reveal('.services-section h2', { origin: 'top' });
+    ScrollReveal().reveal('.services-section p', { origin: 'bottom', delay: 200 });
+
+    // Animate the tab buttons
+    ScrollReveal().reveal('.nav-pills .nav-link', { origin: 'left', interval: 100 });
+
+    // Animate each tab content (tab-section inside each tab-pane)
+    ScrollReveal().reveal('.tab-section h2', { origin: 'top', delay: 100 });
+    ScrollReveal().reveal('.tab-section p', { origin: 'bottom', delay: 200 });
+    ScrollReveal().reveal('.feature-list li', { origin: 'left', interval: 100, delay: 300 });
+    ScrollReveal().reveal('.tabs-btn', { origin: 'bottom', delay: 500 });
