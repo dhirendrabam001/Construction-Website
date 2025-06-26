@@ -103,3 +103,79 @@ ScrollReveal().reveal('.price-info', { origin: 'right', delay: 400 });
     ScrollReveal().reveal('.tab-section p', { origin: 'bottom', delay: 200 });
     ScrollReveal().reveal('.feature-list li', { origin: 'left', interval: 100, delay: 300 });
     ScrollReveal().reveal('.tabs-btn', { origin: 'bottom', delay: 500 });
+
+    // Work section
+
+    ScrollReveal().reveal('.work-section h2', {
+    origin: 'bottom',
+    distance: '20px',
+    duration: 800,
+    delay: 100,
+    opacity: 0,
+    easing: 'ease-in-out'
+  });
+
+  ScrollReveal().reveal('.work-section p', {
+    origin: 'bottom',
+    distance: '20px',
+    duration: 1000,
+    delay: 200,
+    opacity: 0,
+    easing: 'ease-in-out'
+  });
+
+  ScrollReveal().reveal('.work-info', {
+    origin: 'left',
+    distance: '40px',
+    duration: 1000,
+    interval: 200,
+    opacity: 0,
+    easing: 'ease-in-out'
+  });
+
+  ScrollReveal().reveal('.work-content img', {
+    origin: 'right',
+    distance: '50px',
+    duration: 1000,
+    delay: 300,
+    opacity: 0,
+    easing: 'ease-in-out'
+  });
+
+  // work section
+  ScrollReveal({ 
+    reset: false,         // Only animates once
+    distance: '50px',     
+    duration: 1000,       
+    easing: 'ease-in-out'
+  });
+
+  // Reveal help-info container
+  ScrollReveal().reveal('.help-info', {
+    origin: 'bottom'
+  });
+
+  // Reveal each button separately with a delay
+  ScrollReveal().reveal('.btn-work-1', {
+    origin: 'left',
+    delay: 200
+  });
+
+  ScrollReveal().reveal('.btn-work-2', {
+    origin: 'right',
+    delay: 400
+  });
+
+  // About section
+  ScrollReveal().reveal('.faq-item', {
+      distance: '40px',
+      origin: 'bottom',
+      duration: 800,
+      interval: 120
+    });
+    ScrollReveal().reveal('.about-info', {
+      distance: '60px',
+      origin: 'right',
+      duration: 900,
+      delay: 200
+    });

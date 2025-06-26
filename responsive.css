@@ -122,4 +122,19 @@
     margin-left: 38px;
     font-size: 14px;
   }
+  .work-content img {
+    margin-top: 0px;
+}
+.help-section {
+  height: 90vh;
+}
+.btn-work {
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.btn-work-1 a, .btn-work-2 a {
+    font-size: 10px;
+    margin-top: 16px;
+    display: inline-block;
+  }
 }

@@ -353,6 +353,116 @@ hr {
     color: white;
 }
 
-
-
 /* Services Section end */
+
+/* Works section start */
+.work-section {
+    width: 100%;
+    height: auto;
+    background: #201f1f;
+}
+.work-content .work-info {
+    background: #111;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+    align-items: flex-start;
+    border-radius: 20px;
+}
+.work-icons i {
+    font-size: 35px;
+    background: #515151;
+    padding: 18px 18px;
+    color: red;
+    font-weight: 600;
+    margin-top: 17px;
+    border-radius: 10px;
+}
+.work-content-info p {
+    line-height: 32px;
+    font-size: 16px;
+}
+.work-content img {
+    margin-top: 130px;
+}
+
+/* Works section end */
+
+/* Help Section start */
+.help-section {
+    width: 100%;
+    background-image: url(https://reactheme.com/products/wordpress/elever/construction/wp-content/uploads/sites/2/2025/03/02-5-scaled.webp);
+    height: 70vh;
+    background-size: cover;
+}
+.help-info {
+    width: 50%;
+    margin: auto;
+    margin-top: 8%;
+}
+.help-info h2 {
+    font-size: 60px;
+    margin-top: 30px;
+}
+.btn-work {
+    margin-top: 55px;
+    margin-left: 140px;
+}
+.btn-work-1 a {
+    background: orangered;
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+.btn-work-1 a:hover {
+    background: black;
+    transform: scale(0.9);
+    opacity: 0.9;
+}
+.btn-work-2 a {
+    background: white;
+    padding: 10px 20px;
+    color: orangered;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+.btn-work-2 a:hover {
+    background: orangered;
+    transform: scale(0.9);
+    opacity: 0.9;
+    color: white;
+}
+
+/* Help Section end */
+
+/* About section start */
+.about-section {
+    width: 100%;
+    min-height: 100vh;
+    background: #efebe7;
+}
+.about-section h2 {
+    font-size: 50px!important;
+}
+/* .faqinfo {
+    background: white;
+    padding: 20px;
+} */
+.btn-faq {
+    background: black!important;
+    border: none!important;
+    padding: 10px;
+}
+.accordion-body {
+    background: orangered;
+}
+
+
+
+
+
+/* About section end */
