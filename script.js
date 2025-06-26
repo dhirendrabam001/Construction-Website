@@ -179,3 +179,61 @@ ScrollReveal().reveal('.price-info', { origin: 'right', delay: 400 });
       duration: 900,
       delay: 200
     });
+
+    // blog section
+
+    ScrollReveal({
+        distance: '50px',
+        duration: 1000,
+        easing: 'ease-out',
+        reset: false  // Set true if you want the animation to repeat when scrolling back
+    });
+
+    // Reveal sections
+    ScrollReveal().reveal('.text-center', { origin: 'top', delay: 200 });
+    ScrollReveal().reveal('.blog-main .col-md-4', { origin: 'left', interval: 200 });
+    ScrollReveal().reveal('.blog-main .col-md-8', { origin: 'right', interval: 200 });
+    ScrollReveal().reveal('.col-md-5 .card', { origin: 'bottom', delay: 300 });
+    ScrollReveal().reveal('.blog-content-2', {
+        origin: 'bottom',
+        distance: '30px',
+        duration: 800,
+        interval: 150,
+        scale: 0.9, // for slight zoom effect
+        easing: 'ease-in-out',
+        reset: false
+    });
+
+    // Contact section
+    ScrollReveal().reveal('.contact-info', {
+        origin: 'left',
+        distance: '50px',
+        duration: 1000,
+        delay: 200,
+        easing: 'ease-in-out',
+        reset: false
+    });
+
+    ScrollReveal().reveal('.contact-info-1', {
+        origin: 'right',
+        distance: '50px',
+        duration: 1000,
+        delay: 400,
+        easing: 'ease-in-out',
+        reset: false
+    });
+
+    ScrollReveal().reveal('.form-seciton .mb-3', {
+        origin: 'bottom',
+        distance: '20px',
+        duration: 800,
+        delay: 600,
+        interval: 100,
+        reset: false
+    });
+
+    ScrollReveal().reveal('.btn', {
+        scale: 0.85,
+        duration: 700,
+        delay: 1000
+    });

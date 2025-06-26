@@ -35,7 +35,7 @@
 /* Header Section start */
 .header-main {
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     position: relative;
     z-index: 0;
     overflow: hidden;
@@ -106,7 +106,7 @@
 /* Exports Construction section start */
 .exports-main {
     width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 .exports-info a {
     padding: 10px 20px;
@@ -157,7 +157,7 @@
 /* Finished Project section start */
 .finished-project {
     width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background: rgb(24, 23, 23);
 }
 .text-info {
@@ -202,7 +202,7 @@ hr {
 /* Choose section start */
 .choose-section {
     width: 100%;
-    height: 90vh;
+    /* height: 100vh; */
     background: #efebe7;
 }
 .choose-section p {
@@ -228,7 +228,7 @@ hr {
 /* Tradition section start */
 .tradition-section {
     width: 100%;
-    min-height: 90vh;
+    /* min-height: 100vh; */
 }
 .tradition-content p {
     color: darkgray;
@@ -269,7 +269,7 @@ hr {
 /* Services Section start */
 .services-section {
     width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background: #efebe7;
 }
 .service-info .btn-service {
@@ -299,18 +299,19 @@ hr {
   background-image: url('https://reactheme.com/products/wordpress/elever/construction/wp-content/uploads/sites/2/2025/03/07-scaled.webp');
   background-size: cover;
   width: 100%;
-  height: 65vh;
+  height: 70vh;
   background-position: right;
   background-repeat: no-repeat;
   color: white;
   border-radius: 12px;
   overflow: hidden;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .tab-section h2 {
     margin-top: 50px !important;
     margin-left: 50px;
 }
+
 .tab-section p {
     color: darkgray;
     line-height: 32px;
@@ -329,6 +330,7 @@ hr {
 .feature-list li {
     list-style: none;
     line-height: 35px;
+    font-size: 13px;
 }
 .feature-list i {
     color: red;
@@ -339,11 +341,10 @@ hr {
     background: red;
     color: white;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     padding: 10px 20px;
     transition: 0.5s ease;
     margin-left: 78px;
-    margin-top: 15px;
     display: inline-block;
 }
 .tabs-btn a:hover {
@@ -391,7 +392,7 @@ hr {
 .help-section {
     width: 100%;
     background-image: url(https://reactheme.com/products/wordpress/elever/construction/wp-content/uploads/sites/2/2025/03/02-5-scaled.webp);
-    height: 70vh;
+    /* height: 70vh; */
     background-size: cover;
 }
 .help-info {
@@ -442,7 +443,7 @@ hr {
 /* About section start */
 .about-section {
     width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background: #efebe7;
 }
 .about-section h2 {
@@ -461,8 +462,122 @@ hr {
     background: orangered;
 }
 
-
-
-
-
 /* About section end */
+
+/* Blog Section start */
+.blog-main {
+    width: 100%;
+    /* min-height: 100vh; */
+    background: #efebe7;
+}
+.header-blog h4 {
+    font-size: 16px;
+    background: darkgray;
+    padding: 7px 6px;
+    border-radius: 18px;
+    color: white;
+    font-weight: 600;
+}
+.header-blog p {
+    font-size: 16px;
+    margin-top: 5px;
+    color: #5c5a5a;
+}
+.blog-info h2 {
+    transition: 0.5s ease;
+}
+.blog-info h2:hover {
+    color: red;
+    font-weight: bold;
+}
+.blog-btn a {
+    font-size: 17px;
+    color: orangered;
+    font-weight: bold;
+}
+.blog-content {
+    overflow: hidden;
+    border-radius: 10px;
+}
+.blog-content img {
+    transition: transform 0.5s ease-in-out;
+}
+.blog-content img:hover {
+    transform: scale(1.1);
+}
+.card-img-overlay {
+    margin-top: 43%;
+}
+
+/* Blog Section end */
+
+/* Contact Section start */
+.contact-section {
+    width: 100%;
+    background-image: url(https://reactheme.com/products/wordpress/elever/construction/wp-content/uploads/sites/2/2025/03/02-6-scaled.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact-footer i {
+    border-radius: 50%;
+    font-size: 24px;
+    background: #1e2127;
+    padding: 19px 20px;
+    font-weight: 600;
+}
+.card-img-overlay {
+    margin-top: 55%;
+}
+.card-img-overlay h3 {
+    font-size: 25px;
+    margin-left: 80px;
+    margin-top: -23px;
+    font-weight: 600;
+}
+.contact-info-1 {
+    background: #ffff;
+    padding: 20px 15px;
+    border-radius: 20px;
+}
+/* Contact Section end */
+
+/* Footer Section start */
+.footer-section {
+    width: 100%;
+    min-height: 100vh;
+    background: #111;
+}
+.marquee-wrapper {
+      overflow: hidden;
+      white-space: nowrap;
+      background-color: #111;
+      padding: 20px 0;
+      position: relative;
+    }
+
+    .marquee {
+      display: inline-block;
+      white-space: nowrap;
+      animation: marquee 25s linear infinite;
+    }
+    .marquee span {
+      display: inline-block;
+      color: #242A2F;
+      font-size: 109px;
+      font-weight: 600;
+      padding-right: 60px;
+      text-transform: none;
+    }
+
+    @keyframes marquee {
+      0% {
+        transform: translateX(10%);
+      }
+      100% {
+        transform: translateX(-10%);
+      }
+    }
+
+
+
+/* Footer Section end */
