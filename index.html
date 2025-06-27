@@ -18,15 +18,18 @@
 <body>
 
     <!-- Topbar section start -->
+    <!-- ✅ Navbar Section -->
     <section class="topbar-main">
-        <nav class="navbar navbar-expand-lg  bg-white shadow">
+        <nav class="navbar navbar-expand-lg bg-white shadow">
             <div class="container-fluid">
                 <img src="https://reactheme.com/products/wordpress/elever/construction/wp-content/uploads/sites/2/2025/03/02-1.svg"
-                    class="ms-2" width="200px" height="100px" alt="logo">
+                    class="ms-2" width="200px" height="100px" alt="logo" />
+
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                     aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa-solid fa-bars"></i>
                 </button>
+
                 <div class="collapse navbar-collapse" id="navbarScroll">
                     <ul class="navbar-nav mx-auto gap-4 my-2 my-lg-0 navbar-nav-scroll"
                         style="--bs-scroll-height: 100px;">
@@ -54,7 +57,7 @@
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
                                 <li>
-                                    <hr class="dropdown-divider">
+                                    <hr class="dropdown-divider" />
                                 </li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
@@ -63,15 +66,38 @@
                             <a class="nav-link" href="#">Contact Us</a>
                         </li>
                     </ul>
+
+                    <!-- Trigger Button for Sidebar -->
                     <div class="d-flex align-items-center gap-3 me-3 topbar-btn">
                         <button class="btn" type="submit">Request A Quote</button>
-                        <i class="fa-solid fa-bars"></i>
+                        <i class="fa-solid fa-bars" style="cursor:pointer;" onclick="openSidebar()"></i>
                     </div>
-
                 </div>
             </div>
         </nav>
     </section>
+
+    <!-- ✅ Sidebar Popup -->
+<!-- <div id="sidebarPopup" class="sidebar-popup">
+
+  <button class="btn btn-sm btn-light close-btn" onclick="closeSidebar()">
+    <i class="fa-solid fa-xmark"></i>
+  </button> -->
+
+  <!-- Sidebar Content -->
+  <!-- <div class="sidebar-content text-center">
+    <img src="https://via.placeholder.com/300x200" class="img-fluid mb-3" alt="building" />
+    <h5 class="fw-bold">We Build Building and Great Constructive Homes.</h5>
+    <p class="text-secondary">
+      We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly master new technologies.
+    </p>
+    <hr />
+    <h6 class="fw-bold mt-4">Got a project in mind?</h6>
+    <button class="btn btn-danger mt-3">Start Now</button>
+  </div>
+</div> -->
+
+
 
     <!-- Topbar section end -->
 
@@ -141,7 +167,7 @@
                             <div class="card text-white">
                                 <img src="https://reactheme.com/products/wordpress/elever/construction/wp-content/uploads/sites/2/2025/03/06-760x490.webp"
                                     class="card-img" alt="...">
-                                <div class="card-img-overlay">
+                                <div class="card-img-overlay img-content">
                                     <h5 class="card-title fs-2 mt-3 fw-bold">Serenity Community</h5>
                                     <p class="card-text fs-5">Luxury Residences, Modern Homes.</p>
                                     <div class="location-info">
@@ -951,20 +977,52 @@
                     <span>Premium Construction Theme </span>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12 col-md-4">
-                    <div class="footer-info">
-                        <h2>New Work NY</h2>
-                        <p>123 Madison Ave, Suite 100, New York, NY 10016</p>
-                        <P>+(555) 123-4567</P>
+            <div class="row justify-content-center align-items-center g-5">
+                <div class="col-12 col-md-3">
+                    <div class="footer-info shadow">
+                        <h2 class="fs-5 fw-bold text-white">New Work NY</h2>
+                        <p class="text-secondary">123 Madison Ave, Suite 100, New York, NY 10016</p>
+                        <P class="text-secondary">+(555) 123-4567</P>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="footer-info shadow">
+                        <h2 class="fs-5 fw-bold text-white">Los Angeles, CA</h2>
+                        <p class="text-secondary">456 Sunset Blvd, 2nd Floor, Los Angeles, CA 90026</p>
+                        <P class="text-secondary">+(555) 123-4567</P>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="footer-info shadow">
+                        <h2 class="fs-5 fw-bold text-white">Phoenix, AZ</h2>
+                        <p class="text-secondary">1212 Camelback Rd, Suite 200, Phoenix, AZ 85016</p>
+                        <P class="text-secondary">+(555) 123-4567</P>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="footer-info shadow">
+                        <h2 class="fs-5 fw-bold text-white">San Diego, CA</h2>
+                        <p class="text-secondary">1515 Harbor Dr, Suite 600, San Diego, CA 92101</p>
+                        <P class="text-secondary">+(555) 123-4567</P>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-second">
+                <hr>
+                <div class="row justify-content-center align-items-center g-5">
+                    <div class="col-12 col-md-6">
+                        <img src="https://reactheme.com/products/wordpress/elever/construction/wp-content/uploads/sites/2/2025/02/01.svg"
+                            class="text-white">
+                    </div>
+                    <div class="col-12 col-md-6 footer-last">
+                        <p class="text-white text-end text-sm-start">Copyright © All Rights Reserved. Powered by
+                            Dhirendra Bam!</p>
                     </div>
                 </div>
             </div>
 
         </div>
     </section>
-
-
 
     <!-- Footer Section end -->
 
@@ -983,6 +1041,7 @@
         integrity="sha512-6NMMIFlqtExAiLABal8yJXtbPkFIo7Fkr4z1BnMl7buEpimh/gZBGqyNqcuVyIz++BjH1mtxnTWVN4BrZodh9A=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="/script.js"></script>
+
 </body>
 
 </html>

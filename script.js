@@ -237,3 +237,23 @@ ScrollReveal().reveal('.price-info', { origin: 'right', delay: 400 });
         duration: 700,
         delay: 1000
     });
+
+    // Footer section
+    ScrollReveal({
+        reset: true,       // Animates every time it comes into view
+        distance: '60px',
+        duration: 1000,
+        delay: 200
+    });
+
+    ScrollReveal().reveal('.marquee', { origin: 'top' });
+    ScrollReveal().reveal('.footer-info', { origin: 'bottom', interval: 200 });
+
+
+    // Popup form
+function openSidebar() {
+            document.getElementById("sidebarPopup").classList.add("show");
+        }
+        function closeSidebar() {
+            document.getElementById("sidebarPopup").classList.remove("show");
+        }
