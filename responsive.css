@@ -30,20 +30,29 @@
         width: 100%;
         align-items: center;
     }
-
-    .topbar-btn .btn {
-        font-size: 16px;
-        padding: 8px 5px;
-        /* margin-right: 68%; */
-        margin-top: -50px;
-    }
-
-    .topbar-btn i {
-        font-size: 25px;
-        padding: 7px 15px;
-        margin-right: 85%;
-        margin-top: 7px;
-    }
+      .topbar-btn .btn-sec {
+    font-size: 14px;
+    margin-right: 66%;
+  }
+    .topbar-btn .btn-sec-2 {
+    margin-right: 66%;
+    padding: 9px 60px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+    #sidebar {
+    position: fixed;
+    top: 38%;
+    right: -450px;
+    width: 450px;
+    height: 39%;
+    background-color: #fff;
+    color: white;
+    transition: right 0.3s ease;
+    z-index: 999;
+    overflow-y: auto;
+    left: 0px;
+  }
 
     .header-main .carousel-item img {
         width: 100%;

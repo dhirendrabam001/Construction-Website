@@ -251,9 +251,3 @@ ScrollReveal().reveal('.price-info', { origin: 'right', delay: 400 });
 
 
     // Popup form
-function openSidebar() {
-            document.getElementById("sidebarPopup").classList.add("show");
-        }
-        function closeSidebar() {
-            document.getElementById("sidebarPopup").classList.remove("show");
-        }

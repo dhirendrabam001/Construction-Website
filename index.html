@@ -68,9 +68,10 @@
                     </ul>
 
                     <!-- Trigger Button for Sidebar -->
+
                     <div class="d-flex align-items-center gap-3 me-3 topbar-btn">
-                        <button class="btn" type="submit">Request A Quote</button>
-                        <i class="fa-solid fa-bars" style="cursor:pointer;" onclick="openSidebar()"></i>
+                        <button class="btn-sec" type="submit">Request A Quote</button>
+                        <button id="sidebarToggle" class="btn-sec btn-sec-2 btn-outline-dark">☰</button>
                     </div>
                 </div>
             </div>
@@ -78,26 +79,21 @@
     </section>
 
     <!-- ✅ Sidebar Popup -->
-<!-- <div id="sidebarPopup" class="sidebar-popup">
-
-  <button class="btn btn-sm btn-light close-btn" onclick="closeSidebar()">
-    <i class="fa-solid fa-xmark"></i>
-  </button> -->
-
-  <!-- Sidebar Content -->
-  <!-- <div class="sidebar-content text-center">
-    <img src="https://via.placeholder.com/300x200" class="img-fluid mb-3" alt="building" />
-    <h5 class="fw-bold">We Build Building and Great Constructive Homes.</h5>
-    <p class="text-secondary">
-      We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly master new technologies.
-    </p>
-    <hr />
-    <h6 class="fw-bold mt-4">Got a project in mind?</h6>
-    <button class="btn btn-danger mt-3">Start Now</button>
-  </div>
-</div> -->
-
-
+    <!-- Sidebar -->
+    <div id="sidebar">
+        <button class="close-btn" onclick="closeSidebar()"><i class="fa-solid fa-xmark"></i></button>
+        <div class="sidebar-content">
+            <img src="https://reactheme.com/products/wordpress/elever/construction/wp-content/uploads/sites/2/2025/04/04-3-600x635.webp" class="img-fluid mb-3" alt="building" />
+            <h5 class="fw-bold text-dark">We Build Building and Great Constructive Homes.</h5>
+            <p class="text-secondary">
+                We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly master
+                new technologies.
+            </p>
+            <hr class="text-secondary">
+            <h6 class="fs-5 text-dark">Got a project in mind?</h6>
+            <button class="btn-sidebar">Let's Talk</button>
+        </div>
+    </div>
 
     <!-- Topbar section end -->
 
@@ -1032,6 +1028,7 @@
 
 
 
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
@@ -1041,6 +1038,19 @@
         integrity="sha512-6NMMIFlqtExAiLABal8yJXtbPkFIo7Fkr4z1BnMl7buEpimh/gZBGqyNqcuVyIz++BjH1mtxnTWVN4BrZodh9A=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="/script.js"></script>
+    <script>
+        const toggle = document.getElementById('sidebarToggle');
+        const sidebar = document.getElementById('sidebar');
+
+        toggle.addEventListener('click', () => {
+            sidebar.classList.toggle('active');
+        });
+
+        function closeSidebar() {
+            sidebar.classList.remove('active');
+        }
+    </script>
+
 
 </body>
 
