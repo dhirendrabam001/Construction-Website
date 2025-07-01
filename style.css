@@ -36,6 +36,71 @@
     background: white;
     border: 1px solid black;
 }
+/* Sidebar */
+
+ #sidebar {
+      position: fixed;
+      top: 0;
+      right: -300px;
+      width: 300px;
+      height: 100%;
+      background-color: #fff;
+      color: white;
+      transition: right 0.3s ease;
+      z-index: 999;
+      overflow-y: auto;
+    }
+
+    #sidebar.active {
+      right: 0;
+    }
+
+    #sidebar .nav-link {
+      color: white;
+    }
+
+    #sidebar .nav-link:hover {
+      background-color: #495057;
+    }
+
+   .close-btn {
+    position: absolute;
+    top: 0px;
+    color: white;
+    background: red;
+    border: none;
+    font-size: 20px;
+    padding: 1px 10px;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+.close-btn:hover {
+    background: navy;
+    transform: scale(0.8)
+}
+
+    .sidebar-content {
+      padding: 30px;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .sidebar-content p {
+        font-size: 14px!important;
+    }
+    .btn-sidebar {
+    font-size: 14px;
+    background: red;
+    border: none;
+    padding: 8px 20px;
+    color: white !important;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: 0.5s ease;
+}
+.btn-sidebar:hover {
+    background: navy;
+    transform: scale(0.8);
+}
 
 /* Header Section start */
 .header-main {
@@ -665,68 +730,6 @@ hr {
 
 /* Footer Section end */
 
-/* Sidebar */
 
-     #sidebar {
-      position: fixed;
-      top: 0;
-      right: -300px;
-      width: 300px;
-      height: 100%;
-      background-color: #fff;
-      color: white;
-      transition: right 0.3s ease;
-      z-index: 999;
-      overflow-y: auto;
-    }
 
-    #sidebar.active {
-      right: 0;
-    }
-
-    #sidebar .nav-link {
-      color: white;
-    }
-
-    #sidebar .nav-link:hover {
-      background-color: #495057;
-    }
-
-   .close-btn {
-    position: absolute;
-    top: 0px;
-    color: white;
-    background: red;
-    border: none;
-    font-size: 20px;
-    padding: 1px 10px;
-    font-weight: 600;
-    transition: 0.5s ease;
-}
-.close-btn:hover {
-    background: navy;
-    transform: scale(0.8)
-}
-
-    .sidebar-content {
-      padding: 30px;
-      text-align: center;
-      margin-top: 20px;
-    }
-    .sidebar-content p {
-        font-size: 14px!important;
-    }
-    .btn-sidebar {
-    font-size: 14px;
-    background: red;
-    border: none;
-    padding: 8px 20px;
-    color: white !important;
-    font-weight: bold;
-    margin-top: 10px;
-    transition: 0.5s ease;
-}
-.btn-sidebar:hover {
-    background: navy;
-    transform: scale(0.8);
-}
+    
